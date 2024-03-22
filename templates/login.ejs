@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head.ejs') %>
+    
+</head>
+<body>
+    <main class="container">
+        <header class="row">
+            <%- include('partials/header.ejs') %>
+        </header>
+
+        <section class="row" id="app">
+<div class="col-6 offset-3 mt-3">
+    <form action="board">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Username</label>
+          <input type="text" class="form-control" id="username" aria-describedby="userNamelHelp" name="username">
+          <div id="UsernameHelpId" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+    <hr/>
+        <button type="submit" id="play" class="btn btn-primary">Playgame</button>
+      </form>
+</div>
+        </section>
+
+        <footer class="row">
+            <%- include('partials/footer.ejs') %>
+        </footer>
+    </main>
+    <script src="assets/user.bundle.js"></script>
+    <script src="assets/vendors-node_modules_autobind-decorator_lib_esm_index_js-node_modules_class-validator_esm5_de-157a7d.bundle.js"></script>
+    <%- include('partials/foot.ejs') %>
+</body>
+</html>

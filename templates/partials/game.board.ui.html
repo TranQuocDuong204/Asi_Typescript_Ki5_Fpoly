@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+        .gameItem {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 5px 10px 10px #e8f5ee;
+            height: 100px;
+        }
+        .unmatched {
+            background-color: red;
+
+        }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header class="row">
+        <div class="col-6 offset-3 mt-3">
+          <h1>Memory game</h1>
+        </div>
+      </header>
+      <div id="app">
+        <section class="row">
+          <div class="col-2 gameItem m-2 p1 text-center">
+            <img src="" alt="" class="img-fluid" />
+          </div>
+        </section>
+        <section class="row">
+          <div class="col" id="reset">
+            <hr />
+            <button class="btn btn-primary">Resset Game</button>
+            <button class="btn btn-danger">Cancel Game</button>
+          </div>
+        </section>
+      </div>
+
+      <footer class="row">
+        <div class="col-6 offset-3 mt-3">Play game by tranquocduong</div>
+      </footer>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
